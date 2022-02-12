@@ -72,6 +72,10 @@ body {
   color: var(--primary-accent-color);
 }
 
+.nav-list .link.current {
+  color: var(--primary-accent-color);
+}
+
 .contact-item {
   color: var(--secondary-text-color);
 }
@@ -126,7 +130,13 @@ body {
 
 .feature-subtitle {
   font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+
+  letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  color: var(--primary-text-color);
 }
 
 .feature-text {
@@ -220,6 +230,11 @@ body {
 .filter-btn:hover,
 .filter-btn:focus {
   background-color: var(--primary-accent-color);
+}
+
+.btn-txt:hover,
+.btn-txt:focus {
+  color: var(--secondary-accent-color);
 }
 .portfolio-subtitle {
   font-weight: 700;
